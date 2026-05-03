@@ -1,0 +1,29 @@
+# MultiCauseNet - Multimodal Emotion-Cause Pair Extraction
+# Core Dependencies
+
+# Machine Learning & AI
+torch>=2.0.0
+transformers>=4.35.0
+torchaudio>=2.0.0
+openai-whisper>=20231117
+
+# Audio & Signal Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.11.0
+
+# Natural Language Processing
+spacy>=3.7.0
+nltk>=3.8.0
+
+# Web Interfaces
+flask>=3.0.0
+flask-cors>=4.0.0
+streamlit>=1.28.0
+
+# Data & Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
