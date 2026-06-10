@@ -1,8 +1,8 @@
 <div align="center">
 
-![MultiCauseNet Hero](./multicausenet_hero.png)
+![ICAMI2026-Multimodal-ECPE Hero](./ICAMI2026-Multimodal-ECPE.png)
 
-# 🧠 MultiCauseNet
+
 ### Multimodal Emotion-Cause Pair Extraction (ECPE)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -10,7 +10,7 @@
 [![Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-yellow.svg?style=for-the-badge)](https://huggingface.co/docs/transformers/index)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-**MultiCauseNet** is a state-of-the-art multimodal framework designed to not only identify emotions in text and audio but also extract the specific **causes** behind those emotions. Built for explainable AI research and high-performance applications.
+it's a state-of-the-art multimodal framework designed to not only identify emotions in text and audio but also extract the specific **causes** behind those emotions. Built for explainable AI research and high-performance applications.
 
 [Quick Start](#-getting-started) • [Features](#-key-features) • [Architecture](#-system-architecture) • [Usage](#-how-to-use)
 
@@ -76,8 +76,8 @@ graph TD
 ### 2. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/MujtabaNite/MultiCauseNet-multimodal-emotion-cause-pair-extraction.git
-cd MultiCauseNet-multimodal-emotion-cause-pair-extraction
+git clone https://github.com/MujtabaNite/ICAMI2026-Multimodal-ECPE.git
+cd ICAMI2026-Multimodal-ECPE
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
@@ -91,8 +91,7 @@ python models/download_models.py
 ---
 
 ## 🖥️ How to Use
-
-MultiCauseNet offers two ways to interact with the models:
+this  offers two ways to interact with the models:
 
 ### Option A: Flask Web Interface (Recommended)
 Best for professional demonstrations with a modern, animated UI.
@@ -124,7 +123,7 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```text
-MultiCauseNet/
+Project/
 ├── app_flask.py          # Professional Flask Backend & UI
 ├── app.py                # Streamlit Prototype
 ├── pipelines/            # Core AI Processing Modules
@@ -141,8 +140,8 @@ MultiCauseNet/
 
 ## 🎓 Academic Credit
 
-This project is inspired by the research of **Dr. Hassan Nazeer** on explainable emotion analysis and multimodal learning. For detailed theoretical background, refer to:
-📄 `Dr_Hassan_Nazeer_Research_Paper[1].pdf` (Included in repository).
+This project is inspired by the research of **Dr. Hassan Nazeer** on explainable emotion analysis and multimodal learning.
+
 
 ---
 
@@ -153,7 +152,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 <div align="center">
-Built with ❤️ by <a href="https://github.com/MujtabaNite">MujtabaNite</a>
+Built by <a href="https://github.com/MujtabaNite">MujtabaNite</a>
 <br>
 <i>Advancing Multimodal Understanding</i>
 </div>
