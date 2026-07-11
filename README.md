@@ -1,6 +1,6 @@
 <div align="center">
 
-![Multimodal-ECPE Hero](./Multimodal-ECPE.png)
+
 
 
 ### Multimodal Emotion-Cause Pair Extraction (ECPE)
