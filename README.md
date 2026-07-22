@@ -74,8 +74,8 @@ graph TD
 ### 2. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/MujtabaNite/ICAMI2026-Multimodal-ECPE.git
-cd ICAMI2026-Multimodal-ECPE
+git clone https://github.com/MujtabaNite/Multimodal-ECPE.git
+cd Multimodal-ECPE
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
